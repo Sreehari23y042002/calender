@@ -178,7 +178,6 @@ const CalenderCustomComponent = () => {
         defaultView="month"
         components={{
           event: ({ event, ...props }) => {
-            // Get the count of events for the same start time
             const eventCount =
               groupedEvents.get(
                 `${event.start.toString()}-${event.end.toString()}`
