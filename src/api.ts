@@ -17,7 +17,7 @@ export interface Event {
 
 export const fetchEvents = async () => {
   try {
-    const response = await axios.get('http://localhost:5000/events');
+    const response = await axios.get('https://mocki.io/v1/e622fd0d-d79c-4901-9113-3d95967e41e1');
     
     // Convert start and end strings to Date objects
     const eventsWithDateObjects = response.data.map((event: any) => ({

@@ -47,7 +47,7 @@ const CalenderCustomComponent = () => {
 
   const fetchMeetings = async () => {
     try {
-      const response = await fetch("http://localhost:5000/meetings");
+      const response = await fetch("https://mocki.io/v1/b0fdf905-009d-4416-9c49-05da3be0574a");
       const meetings = await response.json();
       setCalenderMeeting(meetings);
     } catch (error) {
