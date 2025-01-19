@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.rbc-time-view .rbc-row{
+  min-height: 0px !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rbc-header{
+  height: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rbc-time-slot{
+  min-height: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rbc-label{
+  color: #3284CB;
 }
-
-.App-link {
-  color: #61dafb;
+.rbc-label{
+  font-weight: 600;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rbc-day-slot .rbc-time-slot{
+  border-top: 0px solid #f7f7f7 !important;
+}
+.rbc-event, .rbc-day-slot .rbc-background-event{
+  background-color: white !important;
+  border: none !important;
+  overflow: auto I !important;
+}
+.rbc-event-label{
+  font-size: 100% !important;
+  left: 80% !important;
+}
+.rbc-event-label{
+  display: none !important;
+}
+.rbc-event{
+  height: 5.77778% !important;
 }
