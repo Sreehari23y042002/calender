@@ -216,6 +216,7 @@ const CalenderCustomComponent = () => {
         views={{ month: true, week: true, day: true }}
         view={view}
         formats={{
+          
           dayFormat: "DD MMM dddd",
           dayHeaderFormat: "DD MMMM yyyy",
           weekdayFormat: "dddd",
